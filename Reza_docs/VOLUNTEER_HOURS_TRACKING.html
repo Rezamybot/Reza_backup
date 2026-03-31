@@ -5,156 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Hours Tracking Form</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: Arial, sans-serif;
-            font-size: 12pt;
-            line-height: 1.4;
+            font-size: 9pt;
+            line-height: 1.2;
             color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            width: 7.5in;
+            margin: 0;
+            padding: 0.2in;
         }
-        h1 {
-            text-align: center;
-            font-size: 18pt;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        h2 {
-            font-size: 14pt;
-            margin-top: 25px;
-            margin-bottom: 10px;
-            background: #f5f5f5;
-            padding: 5px 10px;
-            border-left: 3px solid #333;
-        }
-        .form-group {
-            margin-bottom: 8px;
-        }
-        .form-group label {
-            display: inline-block;
-            width: 200px;
-            font-weight: bold;
-        }
-        .form-group .field {
-            display: inline-block;
-            border-bottom: 1px solid #333;
-            width: calc(100% - 210px);
-            min-width: 200px;
-            padding: 2px 5px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        th, td {
-            border: 1px solid #333;
-            padding: 8px;
-            text-align: left;
-            font-size: 10pt;
-        }
-        th {
-            background: #f5f5f5;
-        }
-        .signature-box {
-            margin-top: 20px;
-            border: 1px solid #333;
-            padding: 15px;
-        }
-        .signature-line {
-            margin-bottom: 15px;
-        }
-        .signature-line label {
-            display: inline-block;
-            width: 180px;
-        }
-        .signature-line .field {
-            display: inline-block;
-            border-bottom: 1px solid #333;
-            width: calc(100% - 190px);
-            min-width: 150px;
-        }
-        .stamp-area {
-            border: 2px dashed #ccc;
-            width: 150px;
-            height: 80px;
-            text-align: center;
-            line-height: 80px;
-            color: #ccc;
-            margin-top: 10px;
-        }
-        .notes-area {
-            border: 1px solid #333;
-            min-height: 80px;
-            padding: 10px;
-            margin-top: 5px;
-        }
-        @media print {
-            body {
-                padding: 0;
-            }
-            .no-print {
-                display: none;
-            }
-        }
+        h1 { text-align: center; font-size: 14pt; margin-bottom: 8px; border-bottom: 1px solid #333; padding-bottom: 4px; }
+        h2 { font-size: 10pt; margin: 8px 0 4px 0; background: #f0f0f0; padding: 2px 6px; border-left: 2px solid #333; }
+        .form-group { margin-bottom: 3px; }
+        .form-group label { display: inline-block; width: 160px; font-weight: bold; font-size: 9pt; }
+        .form-group .field { display: inline-block; border-bottom: 1px solid #333; width: calc(100% - 165px); min-width: 150px; padding: 1px 3px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+        th, td { border: 1px solid #333; padding: 3px; text-align: left; font-size: 8pt; }
+        th { background: #f0f0f0; font-size: 8pt; }
+        .signature-box { margin-top: 6px; border: 1px solid #333; padding: 6px; }
+        .signature-line { margin-bottom: 4px; }
+        .signature-line label { display: inline-block; width: 140px; font-size: 9pt; }
+        .signature-line .field { display: inline-block; border-bottom: 1px solid #333; width: calc(100% - 145px); }
+        .stamp-area { border: 2px dashed #ccc; width: 100px; height: 50px; text-align: center; line-height: 50px; color: #ccc; font-size: 8pt; margin-top: 4px; }
+        .notes-area { border: 1px solid #333; min-height: 30px; padding: 4px; margin-top: 2px; }
+        .two-col { display: flex; gap: 10px; }
+        .two-col > div { flex: 1; }
+        @page { margin: 0.2in; size: letter; }
+        @media print { body { padding: 0; } }
     </style>
 </head>
 <body>
     <h1>Volunteer Hours Tracking Form</h1>
 
-    <h2>Organization Information</h2>
-    <div class="form-group">
-        <label>Organization Name:</label>
-        <span class="field"></span>
-    </div>
-    <div class="form-group">
-        <label>Organization Address:</label>
-        <span class="field"></span>
-    </div>
-    <div class="form-group">
-        <label>Supervisor Name:</label>
-        <span class="field"></span>
-    </div>
-    <div class="form-group">
-        <label>Supervisor Email:</label>
-        <span class="field"></span>
-    </div>
-
-    <h2>Volunteer Information</h2>
-    <div class="form-group">
-        <label>Volunteer Name:</label>
-        <span class="field"></span>
-    </div>
-    <div class="form-group">
-        <label>Volunteer Email:</label>
-        <span class="field"></span>
-    </div>
-    <div class="form-group">
-        <label>Volunteer Phone:</label>
-        <span class="field"></span>
+    <div class="two-col">
+        <div>
+            <h2>Organization Information</h2>
+            <div class="form-group"><label>Organization Name:</label><span class="field"></span></div>
+            <div class="form-group"><label>Supervisor Name:</label><span class="field"></span></div>
+            <div class="form-group"><label>Supervisor Email:</label><span class="field"></span></div>
+        </div>
+        <div>
+            <h2>Volunteer Information</h2>
+            <div class="form-group"><label>Volunteer Name:</label><span class="field"></span></div>
+            <div class="form-group"><label>Volunteer Email:</label><span class="field"></span></div>
+            <div class="form-group"><label>Volunteer Phone:</label><span class="field"></span></div>
+        </div>
     </div>
 
     <h2>Hours Log</h2>
     <table>
         <thead>
-            <tr>
-                <th style="width: 15%">Date</th>
-                <th style="width: 12%">Hours Worked</th>
-                <th style="width: 48%">Activity/Task Description</th>
-                <th style="width: 25%">Supervisor Initials</th>
-            </tr>
+            <tr><th style="width:15%">Date</th><th style="width:10%">Hours</th><th style="width:50%">Activity/Task</th><th style="width:25%">Supervisor Initials</th></tr>
         </thead>
         <tbody>
-            <tr><td></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
@@ -166,68 +70,28 @@
         </tbody>
     </table>
 
-    <h2>Total Hours This Period</h2>
-    <div class="form-group">
-        <label>Total Hours:</label>
-        <span class="field"></span>
-    </div>
-    <div class="form-group">
-        <label>Date Range:</label>
-        <span class="field">From _____________ To _____________</span>
-    </div>
+    <div class="form-group"><label>Total Hours:</label><span class="field" style="width:100px"></span> <label>Date Range:</label><span class="field"></span></div>
 
-    <h2>Sign-Off</h2>
-    <div class="signature-box">
-        <div class="signature-line">
-            <label>Supervisor Name (Print):</label>
-            <span class="field"></span>
+    <div class="two-col">
+        <div class="signature-box">
+            <div class="signature-line"><label>Supervisor Name:</label><span class="field"></span></div>
+            <div class="signature-line"><label>Signature:</label><span class="field"></span></div>
+            <div class="signature-line"><label>Date:</label><span class="field"></span></div>
         </div>
-        <div class="signature-line">
-            <label>Supervisor Signature:</label>
-            <span class="field"></span>
-        </div>
-        <div class="signature-line">
-            <label>Date:</label>
-            <span class="field"></span>
+        <div class="signature-box">
+            <div class="signature-line"><label>Org Rep Name:</label><span class="field"></span></div>
+            <div class="signature-line"><label>Signature:</label><span class="field"></span></div>
+            <div class="signature-line"><label>Date:</label><span class="field"></span></div>
+            <div class="signature-line"><label>Stamp:</label><div class="stamp-area">Stamp</div></div>
         </div>
     </div>
 
-    <h2>Organization Approval</h2>
-    <div class="signature-box">
-        <div class="signature-line">
-            <label>Organization Rep Name:</label>
-            <span class="field"></span>
-        </div>
-        <div class="signature-line">
-            <label>Organization Rep Signature:</label>
-            <span class="field"></span>
-        </div>
-        <div class="signature-line">
-            <label>Date:</label>
-            <span class="field"></span>
-        </div>
-        <div class="signature-line">
-            <label>Organization Stamp:</label>
-            <div class="stamp-area">Place Stamp Here</div>
-        </div>
+    <div class="signature-box" style="margin-top:6px;">
+        <div class="form-group"><label>Notes:</label><div class="notes-area"></div></div>
     </div>
 
-    <h2>Notes</h2>
-    <div class="notes-area"></div>
+    <div class="signature-line" style="margin-top:6px;"><label>Volunteer Signature:</label><span class="field" style="width:200px"></span> <label>Date:</label><span class="field" style="width:80px"></span></div>
 
-    <div class="signature-box" style="margin-top: 30px;">
-        <div class="signature-line">
-            <label>Volunteer Signature:</label>
-            <span class="field"></span>
-        </div>
-        <div class="signature-line">
-            <label>Date:</label>
-            <span class="field"></span>
-        </div>
-    </div>
-
-    <p style="text-align: center; margin-top: 30px; font-size: 10pt; color: #666;">
-        <em>This form is for personal record-keeping and verification purposes.</em>
-    </p>
+    <p style="text-align:center;font-size:8pt;color:#666;margin-top:8px;"><em>This form is for personal record-keeping and verification purposes.</em></p>
 </body>
 </html>
