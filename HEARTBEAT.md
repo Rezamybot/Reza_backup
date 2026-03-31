@@ -7,7 +7,7 @@ Check in with KK:
 
 ## Weather Check (~9 AM PST)
 Check weather for 94582:
-- curl wttr.in/94582?format=3
+- curl wttr.in/San+Ramon+CA?format=%l:+%c+%t+(feels+like+%f),+%w+wind,+%h+humidity
 - Text them the weather update
 
 ## Evening Backup (~8 PM PST)
