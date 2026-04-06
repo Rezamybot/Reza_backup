@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Persian Inspired v1 - Gold on Dark -->
+  <rect width="400" height="300" fill="#1A1A1A"/>
+  
+  <!-- Persian arch / cookie shape -->
+  <path d="M100 200 L100 130 Q100 60 200 60 Q300 60 300 130 L300 200" fill="none" stroke="#D4A056" stroke-width="4"/>
+  
+  <!-- Cookie inside arch -->
+  <ellipse cx="200" cy="140" rx="50" ry="14" fill="#D4A056"/>
+  
+  <!-- Seeds - black & white sesame -->
+  <circle cx="175" cy="138" r="2.5" fill="#1A1A1A"/>
+  <circle cx="190" cy="133" r="2.5" fill="#1A1A1A"/>
+  <circle cx="210" cy="135" r="2.5" fill="#1A1A1A"/>
+  <circle cx="225" cy="142" r="2.5" fill="#1A1A1A"/>
+  <circle cx="180" cy="145" r="2" fill="#FFFFFF"/>
+  <circle cx="200" cy="140" r="2" fill="#FFFFFF"/>
+  <circle cx="218" cy="144" r="2" fill="#FFFFFF"/>
+  
+  <!-- Persian pattern top -->
+  <g stroke="#D4A056" stroke-width="1.5" fill="none">
+    <circle cx="150" cy="80" r="8"/>
+    <circle cx="200" cy="70" r="8"/>
+    <circle cx="250" cy="80" r="8"/>
+    <line x1="158" y1="80" x2="192" y2="75"/>
+    <line x1="208" y1="75" x2="242" y2="80"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#D4A056" text-anchor="middle">CHOOB</text>
+  <text x="200" y="255" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle" letter-spacing="6">COOKIE</text>
+  
+  <!-- Persian word for cookie hint -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="9" fill="#666666" text-anchor="middle">عشق means love</text>
+</svg>
