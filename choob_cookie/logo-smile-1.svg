@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Smile Logo v1 - Brown textured -->
+  <rect width="400" height="300" fill="#FFF8F0"/>
+  
+  <!-- Text with smile代替oo -->
+  <text x="200" y="150" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#8B6914" text-anchor="middle">Ch</text>
+  <text x="200" y="150" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#8B6914" text-anchor="middle" clip-path="url(#clip1)">
+    <tspan x="235" y="150">o</tspan><tspan x="235" y="150" clip-path="url(#clip2)">o</tspan>
+  </text>
+  
+  <!-- Smile Cookie as 'O's -->
+  <!-- Left smile/cookie -->
+  <ellipse cx="175" cy="145" rx="28" ry="22" fill="none" stroke="#8B6914" stroke-width="6"/>
+  <path d="M160 140 Q175 160 190 140" fill="none" stroke="#8B6914" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Right smile/cookie -->
+  <ellipse cx="255" cy="145" rx="28" ry="22" fill="none" stroke="#8B6914" stroke-width="6"/>
+  <path d="M240 140 Q255 160 270 140" fill="none" stroke="#8B6914" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Rest of text -->
+  <text x="200" y="150" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#8B6914" text-anchor="middle">ob</text>
+  <text x="200" y="150" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#8B6914" text-anchor="middle">b</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="18" fill="#8B6914" text-anchor="middle" letter-spacing="6">COOKIE</text>
+  
+  <!-- Underline -->
+  <line x1="140" y1="230" x2="260" y2="230" stroke="#8B6914" stroke-width="2"/>
+  
+  <!-- Tagline -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">چوب = wood · made for dipping</text>
+</svg>
