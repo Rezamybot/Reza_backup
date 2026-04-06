@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Realistic Cookie Logo v1 -->
+  <rect width="400" height="300" fill="#FFFDF5"/>
+  
+  <!-- Cookie base - golden brown round -->
+  <ellipse cx="200" cy="160" rx="90" ry="25" fill="#C48E55"/>
+  <ellipse cx="200" cy="155" rx="85" ry="22" fill="#D4A056"/>
+  <ellipse cx="200" cy="150" rx="80" ry="18" fill="#E0B468"/>
+  
+  <!-- Sesame seeds -->
+  <!-- White sesame -->
+  <ellipse cx="170" cy="145" rx="4" ry="2" fill="#F5F5DC" transform="rotate(-15 170 145)"/>
+  <ellipse cx="185" cy="140" rx="4" ry="2" fill="#F5F5DC" transform="rotate(10 185 140)"/>
+  <ellipse cx="200" cy="138" rx="4" ry="2" fill="#F5F5DC" transform="rotate(-5 200 138)"/>
+  <ellipse cx="215" cy="142" rx="4" ry="2" fill="#F5F5DC" transform="rotate(20 215 142)"/>
+  <ellipse cx="230" cy="148" rx="4" ry="2" fill="#F5F5DC" transform="rotate(-10 230 148)"/>
+  <ellipse cx="175" cy="155" rx="3.5" ry="1.8" fill="#F5F5DC" transform="rotate(5 175 155)"/>
+  <ellipse cx="195" cy="148" rx="3.5" ry="1.8" fill="#F5F5DC" transform="rotate(-20 195 148)"/>
+  <ellipse cx="210" cy="150" rx="3.5" ry="1.8" fill="#F5F5DC" transform="rotate(15 210 150)"/>
+  <ellipse cx="225" cy="155" rx="3.5" ry="1.8" fill="#F5F5DC" transform="rotate(-8 225 155)"/>
+  
+  <!-- Black sesame -->
+  <ellipse cx="178" cy="150" rx="3" ry="1.5" fill="#2C2C2C" transform="rotate(10 178 150)"/>
+  <ellipse cx="195" cy="143" rx="3" ry="1.5" fill="#2C2C2C" transform="rotate(-15 195 143)"/>
+  <ellipse cx="212" cy="145" rx="3" ry="1.5" fill="#2C2C2C" transform="rotate(5 212 145)"/>
+  <ellipse cx="228" cy="152" rx="3" ry="1.5" fill="#2C2C2C" transform="rotate(-10 228 152)"/>
+  <ellipse cx="188" cy="152" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(20 188 152)"/>
+  <ellipse cx="220" cy="148" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(-5 220 148)"/>
+  
+  <!-- Text -->
+  <text x="200" y="230" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#5D4037" text-anchor="middle">Choob Cookie</text>
+  <text x="200" y="255" font-family="Georgia, serif" font-size="14" fill="#8D6E63" text-anchor="middle"> Iran's Favorite Tea Cookie</text>
+  
+  <!-- Simple underline -->
+  <line x1="120" y1="270" x2="280" y2="270" stroke="#D4A056" stroke-width="2"/>
+</svg>

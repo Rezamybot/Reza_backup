@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Simple Icon - Cookie with seeds -->
+  <circle cx="100" cy="100" r="70" fill="#E0B468"/>
+  <circle cx="100" cy="100" r="65" fill="#D4A056"/>
+  <circle cx="100" cy="100" r="60" fill="#C48E55"/>
+  
+  <!-- White sesame seeds -->
+  <ellipse cx="80" cy="85" rx="4" ry="2" fill="#FFFEF0" transform="rotate(-20 80 85)"/>
+  <ellipse cx="95" cy="78" rx="4" ry="2" fill="#FFFEF0" transform="rotate(10 95 78)"/>
+  <ellipse cx="110" cy="80" rx="4" ry="2" fill="#FFFEF0" transform="rotate(-5 110 80)"/>
+  <ellipse cx="125" cy="88" rx="4" ry="2" fill="#FFFEF0" transform="rotate(25 125 88)"/>
+  <ellipse cx="75" cy="100" rx="3.5" ry="1.8" fill="#FFFEF0" transform="rotate(5 75 100)"/>
+  <ellipse cx="95" cy="95" rx="3.5" ry="1.8" fill="#FFFEF0" transform="rotate(-15 95 95)"/>
+  <ellipse cx="115" cy="92" rx="3.5" ry="1.8" fill="#FFFEF0" transform="rotate(18 115 92)"/>
+  <ellipse cx="130" cy="102" rx="3.5" ry="1.8" fill="#FFFEF0" transform="rotate(-8 130 102)"/>
+  <ellipse cx="85" cy="110" rx="3" ry="1.5" fill="#FFFEF0" transform="rotate(12 85 110)"/>
+  <ellipse cx="105" cy="108" rx="3" ry="1.5" fill="#FFFEF0" transform="rotate(-20 105 108)"/>
+  <ellipse cx="120" cy="105" rx="3" ry="1.5" fill="#FFFEF0" transform="rotate(8 120 105)"/>
+  
+  <!-- Black sesame seeds -->
+  <ellipse cx="88" cy="92" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(15 88 92)"/>
+  <ellipse cx="105" cy="85" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(-10 105 85)"/>
+  <ellipse cx="120" cy="90" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(5 120 90)"/>
+  <ellipse cx="135" cy="100" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(-15 135 100)"/>
+  <ellipse cx="100" cy="100" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(20 100 100)"/>
+  <ellipse cx="115" cy="100" rx="2.5" ry="1.2" fill="#2C2C2C" transform="rotate(-5 115 100)"/>
+</svg>
