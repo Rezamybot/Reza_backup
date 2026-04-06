@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Geometric Edgy Logo v2 -->
+  <rect width="400" height="300" fill="#FAF7F2"/>
+  
+  <!-- Geometric cookie - hexagon shape -->
+  <polygon points="200,60 270,95 270,165 200,200 130,165 130,95" fill="#D4A056" stroke="#2C2C2C" stroke-width="3"/>
+  
+  <!-- Inner geometric pattern -->
+  <polygon points="200,75 255,102 255,153 200,180 145,153 145,102" fill="none" stroke="#2C2C2C" stroke-width="1.5"/>
+  
+  <!-- Seeds as sharp diamonds -->
+  <polygon points="175,110 178,115 175,120 172,115" fill="#2C2C2C"/>
+  <polygon points="195,100 198,105 195,110 192,105" fill="#2C2C2C"/>
+  <polygon points="215,105 218,110 215,115 212,110" fill="#2C2C2C"/>
+  <polygon points="230,120 233,125 230,130 227,125" fill="#2C2C2C"/>
+  <polygon points="185,125 188,130 185,135 182,130" fill="#2C2C2C"/>
+  <polygon points="210,125 213,130 210,135 207,130" fill="#2C2C2C"/>
+  
+  <!-- White sesame -->
+  <circle cx="170" cy="130" r="3" fill="#FAF7F2"/>
+  <circle cx="195" cy="115" r="3" fill="#FAF7F2"/>
+  <circle cx="220" cy="118" r="3" fill="#FAF7F2"/>
+  <circle cx="180" cy="140" r="2.5" fill="#FAF7F2"/>
+  <circle cx="205" cy="142" r="2.5" fill="#FAF7F2"/>
+  
+  <!-- Text - sharp, modern -->
+  <text x="200" y="250" font-family="Courier New, monospace" font-size="42" font-weight="bold" fill="#2C2C2C" text-anchor="middle" letter-spacing="4">CHOOB</text>
+  <text x="200" y="275" font-family="Courier New, monospace" font-size="12" fill="#D4A056" text-anchor="middle" letter-spacing="6">COOKIE</text>
+</svg>
