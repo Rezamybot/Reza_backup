@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Improved Persian v3 - Warm Gold -->
+  <rect width="400" height="300" fill="#FFF8F0"/>
+  
+  <!-- Clean circle - cookie outline -->
+  <circle cx="200" cy="140" r="50" fill="none" stroke="#C4884A" stroke-width="5"/>
+  
+  <!-- Inner subtle ring -->
+  <circle cx="200" cy="140" r="42" fill="none" stroke="#C4884A" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Seeds - clean diamond placement -->
+  <g fill="#C4884A">
+    <polygon points="175,130 178,135 175,140 172,135" />
+    <polygon points="195,120 198,125 195,130 192,125" />
+    <polygon points="215,120 218,125 215,130 212,125" />
+    <polygon points="230,135 233,140 230,145 227,140" />
+    <polygon points="235,155 238,160 235,165 232,160" />
+    <polygon points="215,175 218,180 215,185 212,180" />
+    <polygon points="195,175 198,180 195,185 192,180" />
+    <polygon points="175,155 178,160 175,165 172,160" />
+  </g>
+  
+  <!-- Black seeds - center -->
+  <g fill="#FFF8F0">
+    <circle cx="185" cy="135" r="3"/>
+    <circle cx="200" cy="125" r="3"/>
+    <circle cx="215" cy="135" r="3"/>
+    <circle cx="222" cy="152" r="3"/>
+    <circle cx="200" cy="165" r="3"/>
+    <circle cx="178" cy="152" r="3"/>
+  </g>
+  
+  <!-- Center dot - Persian detail -->
+  <circle cx="200" cy="140" r="5" fill="#C4884A"/>
+  
+  <!-- Text - bold & clean -->
+  <text x="200" y="230" font-family="Arial Black, sans-serif" font-size="44" fill="#4A3728" text-anchor="middle" letter-spacing="3">CHOOB</text>
+  <text x="200" y="255" font-family="Arial, sans-serif" font-size="11" fill="#C4884A" text-anchor="middle" letter-spacing="10">COOKIE</text>
+  
+  <!-- Subtle underline -->
+  <line x1="160" y1="270" x2="240" y2="270" stroke="#C4884A" stroke-width="2"/>
+  
+  <!-- Farsi meaning - small -->
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="9" fill="#8B7355" text-anchor="middle">چوب = wood · made for dipping</text>
+</svg>

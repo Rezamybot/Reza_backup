@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Icon Only - For Packaging -->
+  <rect width="200" height="200" fill="#0D0D0D"/>
+  
+  <!-- Clean circle -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#D4A056" stroke-width="6"/>
+  <circle cx="100" cy="100" r="58" fill="none" stroke="#D4A056" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Seeds - 8 points -->
+  <g fill="#D4A056">
+    <polygon points="70,65 75,70 70,75 65,70" />
+    <polygon points="95,50 100,55 95,60 90,55" />
+    <polygon points="125,55 130,60 125,65 120,60" />
+    <polygon points="145,75 150,80 145,85 140,80" />
+    <polygon points="150,105 155,110 150,115 145,110" />
+    <polygon points="145,135 150,140 145,145 140,140" />
+    <polygon points="125,145 130,150 125,155 120,150" />
+    <polygon points="95,145 100,150 95,155 90,150" />
+    <polygon points="70,135 75,140 70,145 65,140" />
+    <polygon points="55,105 60,110 55,115 50,110" />
+  </g>
+  
+  <!-- Black seeds center -->
+  <g fill="#0D0D0D">
+    <circle cx="85" cy="85" r="4"/>
+    <circle cx="100" cy="70" r="4"/>
+    <circle cx="115" cy="85" r="4"/>
+    <circle cx="120" cy="100" r="4"/>
+    <circle cx="100" cy="115" r="4"/>
+    <circle cx="80" cy="100" r="4"/>
+  </g>
+  
+  <!-- Center dot -->
+  <circle cx="100" cy="100" r="7" fill="#D4A056"/>
+</svg>
