@@ -1,0 +1,12 @@
+# Backup files
+backup*.tar.gz
+backup*.txt
+backup_log.txt
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OpenClaw state
+.openclaw/
