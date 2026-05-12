@@ -32,16 +32,16 @@ Girls in 5th grade and up who are becoming of age and getting their period. Many
 
 ## Why this matters to me?
 
-I remember the first time I got my period — it was unexpected and strange. I didn't have the supplies I needed, and I felt embarrassed asking for help.
+When I got my period for the first time, it caught me off guard. I didn't have supplies, and I was too embarrassed to ask for help. But I decided then — I didn't want any other girl to go through that alone.
 
-I don't want other girls to feel that way. DOTKIT is for every girl who deserves to feel prepared.
+DOTKIT is for every girl who deserves to feel prepared, not embarrassed.
 
 ## Why this matters?
 
 - No girl should miss school because of her period
 - Kits are discreet, easy to use, and come with simple instructions
 - I'm a kid just like them — this is led by a teen, for teens
-- I know what it feels like, and I don't want anyone else to feel embarrassed like I did
+- I decided to do something about it — and so can every girl who needs help
 
 ---
 
