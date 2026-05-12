@@ -28,9 +28,9 @@
 - Need to write compelling story and details
 
 ## Next Steps
-1. Draft the one-page pitch for school nurse/counselor
+1. ~~Draft the one-page pitch for school nurse/counselor~~ ✅ DONE
 2. Review and refine
-3. Submit
+3. Submit to school nurse/counselor
 
 ---
 
