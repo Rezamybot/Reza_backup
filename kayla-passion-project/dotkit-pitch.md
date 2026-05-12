@@ -32,7 +32,9 @@ Girls in 5th grade and up who are becoming of age and getting their period. Many
 
 ## Why this matters to me?
 
-When I got my period for the first time, I felt unprepared and embarrassed to ask for help. But that moment inspired me to take action — so no girl has to feel alone.
+I remember the first time I got my period — it was in school. It was unexpected and strange. I didn't have the supplies I needed, and I felt embarrassed asking for help.
+
+That moment inspired me to take action — so no girl has to feel alone.
 
 DOTKIT is about empowering every girl to feel ready, confident, and supported.
 
